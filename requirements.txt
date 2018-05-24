@@ -1,0 +1,6 @@
+swagger_marshmallow_codegen==0.4.0
+Flask_RESTful==0.3.6
+marshmallow==2.15.1
+boto3==1.7.17
+Flask==1.0.2
+PyYAML==3.12

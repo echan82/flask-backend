@@ -1,0 +1,15 @@
+COMMON: &common
+  DEBUG: False
+  TESTING: False
+
+DEVELOPMENT: &development
+  <<: *common
+  DEBUG: True
+  DATABASE: 'development_db'
+#  SQLALCHEMY_TRACK_MODIFICATIONS: False
+#  SQLALCHEMY_DATABASE_URI: 
+
+PRODUCTION: &production
+  <<: *common
+  DATABASE: 'production_db'
+ 
